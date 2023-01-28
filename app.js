@@ -8,13 +8,13 @@ function performOperation(operation) {
             result = parseFloat(input1) + parseFloat(input2);
             break;
         case 'subtract':
-            result = parseFloat(input1) + parseFloat(input2);
+            result = parseFloat(input1) - parseFloat(input2);
             break;
         case 'multiply':
-            result = parseFloat(input1) + parseFloat(input2);
+            result = parseFloat(input1) * parseFloat(input2);
             break;
         case 'divide':
-            result = parseFloat(input1) + parseFloat(input2);
+            result = parseFloat(input1) / parseFloat(input2);
             break;
 
     }
